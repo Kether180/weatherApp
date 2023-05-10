@@ -117,19 +117,6 @@ img {
   margin: -3rem;
   height: 10rem;
 }
-/*
-#light-mode-switch {
-  grid-area: icon;
-  justify-self: center;
-
-}*/
-
-Icon {
-  grid-area: icon;
-  justify-self: center;
-  margin: -3rem;
-  height: 15rem;
-}
 
 
 /* Responsive styles */
