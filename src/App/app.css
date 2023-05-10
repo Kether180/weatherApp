@@ -132,7 +132,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
   :root {
-    font-size: 42.5%;
+    font-size: 20.5%;
     /* 1rem = 10px */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     --dark: #0f0707;
