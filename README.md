@@ -23,3 +23,6 @@ Due to the hight amount of calls to the API server my account is temporarily dis
 
  ## Hosted at : 
 
+https://645c1c0ed2d1ff049ec644c3--hilarious-bunny-784c06.netlify.app/
+
+
