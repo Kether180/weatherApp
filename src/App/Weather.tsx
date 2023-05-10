@@ -108,14 +108,15 @@ const Weather = ({ city, weatherData }: WeatherProps) => {
           <img 
           src={info.icon ?? ""} alt="" />
           <div> 
-            {info.temp && ~~info.temp} Celsius
+             {info.temp && ~~info.temp} Celsius
             </div>
           <div>
              Humidity: {info.humidity}
           %</div>
-          <div>
-             Wind Speed: {info.windSpeed} 
-             km/h</div>
+          <div> <p>
+          Wind Speed: {info.windSpeed} 
+             km/h</p>
+            </div>
         </>
       )}
     </>

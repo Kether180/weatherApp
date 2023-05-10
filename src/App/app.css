@@ -1,5 +1,5 @@
 :root {
-  font-size: 12px;
+  font-size: 13px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   --dark: #0f0707;
   --light: #e6e7e0;
@@ -56,8 +56,19 @@ div {
     "icon icon";
   gap: 1rem;
   text-align: center;
-  padding: 0rem;
+  padding: -9rem;
   margin: 0rem;
+
+
+}
+
+div,
+p {
+  font-size: 2rem;
+  font-weight: 390;
+  text-align: center;
+  padding: 2rem;
+  margin: -2rem;
 
 
 }
@@ -67,6 +78,15 @@ input,
 button {
   height: 3rem;
   border-radius: 1rem;
+  text-align: right;
+}
+
+
+
+label,
+#light-mode-switch {
+  height: 2rem;
+  border-radius: 3rem;
   text-align: right;
 }
 
@@ -102,11 +122,6 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
-
-  text-align: center;
-  font-size: 19px;
-}
 
 p {
   grid-area: temp;
@@ -125,7 +140,7 @@ img {
 @media only screen and (max-width: 767px) {
 
   :root {
-    font-size: 12px;
+    font-size: 5px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     --dark: #0f0707;
     --light: #e6e7e0;
@@ -197,6 +212,35 @@ img {
   }
 
 
+div,
+p {
+  font-size: 2rem;
+  font-weight: 390;
+  text-align: center;
+  padding: 2rem;
+  margin: -2rem;
+
+
+}
+
+
+input,
+button {
+  height: 3rem;
+  border-radius: 1rem;
+  text-align: right;
+}
+
+
+
+label,
+#light-mode-switch {
+  height: 2rem;
+  border-radius: 3rem;
+  text-align: right;
+}
+
+
   img {
     margin: -1.5rem;
     height: 7.5rem;
@@ -208,10 +252,6 @@ img {
     font-size: 3rem;
   }
 
-  h2 {
-    font-size: 1.2rem;
-  }
-
   p {
     font-size: 1.5rem;
   }
@@ -220,26 +260,54 @@ img {
 
 
 
-
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
-div {
-  grid-template: repeat(3, min-content) / 1fr;
-  grid-template-areas:
-    "input"
-    "submit"
-    "city"
-    "temp"
-    "icon";
-  padding: 2rem;
-}
+  div {
+    grid-template: repeat(3, min-content) / 1fr;
+    grid-template-areas:
+      "input"
+      "submit"
+      "city"
+      "temp"
+      "icon";
+    padding: 2rem;
+  }
 
-h1 {
-  font-size: 2.5rem;
-}
 
+div,
 p {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: 390;
+  text-align: center;
+  padding: 2rem;
+  margin: -2rem;
+
+
 }
+
+
+input,
+button {
+  height: 3rem;
+  border-radius: 1rem;
+  text-align: right;
+}
+
+
+
+label,
+#light-mode-switch {
+  height: 2rem;
+  border-radius: 3rem;
+  text-align: right;
+}
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 
 }
