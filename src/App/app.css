@@ -132,7 +132,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
   :root {
-    /*font-size: 10%;*/
+    font-size: 50%;
     /* 1rem = 10px */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     --dark: #0f0707;
@@ -154,7 +154,7 @@ html {
   width: 100%;
   display: flex;
   place-items: center;
-  margin: 5px;
+  margin: px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -164,7 +164,7 @@ html {
 
 
   body {
-    min-height: 80vh;
+    min-height: 50vh;
     background-color: var(--background-color);
     color: var(--text-color);
     display: flex;
@@ -181,6 +181,7 @@ label,
 #light-mode-switch {
   margin: 10px;
   padding: 8px;
+  text-align: left;
 
   font-size: 1.5rem;
   text-transform: none;
@@ -188,7 +189,7 @@ label,
   box-sizing: border-box;
   height: 2rem;
   border-radius: 5rem;
-  text-align: right;
+ 
 }
 
 
@@ -197,7 +198,7 @@ button {
   height: 3.5rem;
   border-radius: 5rem;
   text-align: center;
-  width: 300%;
+  width: 100%;
   height: 3.5rem;
   padding: 0px;
   border-width: -10px;
@@ -211,10 +212,9 @@ button {
   transition: transform 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
   text-align: center;
   height: 3.5rem;
-  border-radius: 1rem;
-  width: 300%;
+  width: 100%;
   padding: 0px;
-  border-width: -10px;
+  border-width: -9px;
 }
 
 
@@ -243,15 +243,8 @@ button {
     font-size: 2.2rem;
     line-height: 1.5;
     text-align: center;
-    padding: 2rem;
-    margin: -2rem;
-  }
-
-  label,
-  #light-mode-switch {
-    height: 2rem;
-    border-radius: 3rem;
-    text-align: left;
+    padding: 1rem;
+    margin: -1rem;
   }
 
   img {
@@ -268,7 +261,9 @@ button {
   h3 {
     grid-area: temp;
     text-align: center;
-    font-size: 15px;
-    align-items: center;
+    font-size: 5px;
+    align-items: right;
   }
+ 
+
 }
