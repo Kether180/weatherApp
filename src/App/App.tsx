@@ -23,8 +23,10 @@ export const App: FC = () => {
   };
 
   return (
+    
     <ThemeProvider>
       <>
+     
         <input
           role="search"
           type="text"
@@ -32,6 +34,8 @@ export const App: FC = () => {
           onChange={handleInputChange}
           placeholder="Search for a city"
         />
+
+    
 
         <button onClick={handleShowWeatherClick}>Show Weather</button>
 
