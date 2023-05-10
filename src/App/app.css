@@ -134,14 +134,12 @@ img {
   height: 10rem;
 }
 
-/* Responsive styles  */
-
-/* mobile devices */
+/* Responsive styles  , mobile */
 
 @media only screen and (max-width: 767px) {
-
   :root {
-    font-size: 8px;
+    font-size: 62.5%;
+    /* 1rem = 10px */
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     --dark: #0f0707;
     --light: #e6e7e0;
@@ -161,10 +159,9 @@ img {
   html {
     height: 100%;
     width: 100%;
-    display: grid;
-    place-items: center;
-    margin: 20px;
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--background-color);
     color: var(--text-color);
   }
@@ -173,10 +170,17 @@ img {
     min-height: 100vh;
     background-color: var(--background-color);
     color: var(--text-color);
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
-  * {
+  input,
+  button,
+  label,
+  #light-mode-switch {
     margin: 0;
     padding: 0;
     border: none;
@@ -187,20 +191,22 @@ img {
   }
 
   input {
-    grid-area: input;
-    padding-inline: 1rem;
+    padding: 0 1rem;
     text-align: center;
     border: 2px solid var(--dark);
+    height: 3rem;
+    border-radius: 1rem;
   }
 
   button {
-    grid-area: submit;
     cursor: pointer;
     border: 2px solid var(--teal);
     background-color: var(--dark);
     color: var(--teal);
     transition: transform 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
     text-align: center;
+    height: 3rem;
+    border-radius: 1rem;
   }
 
   button:hover,
@@ -209,59 +215,7 @@ img {
     color: var(--dark);
     border-color: var(--light);
     transform: scale(1.05);
-    text-align: center;
   }
-
-
-  div,
-  p {
-    font-size: 2rem;
-    font-weight: 390;
-    text-align: center;
-    padding: 2rem;
-    margin: -2rem;
-
-
-  }
-
-
-  input,
-  button {
-    height: 3rem;
-    border-radius: 1rem;
-    text-align: right;
-  }
-
-
-
-  label,
-  #light-mode-switch {
-    height: 2rem;
-    border-radius: 3rem;
-    text-align: right;
-  }
-
-
-  img {
-    margin: -1.5rem;
-    height: 7.5rem;
-  }
-
-  h1 {
-    grid-area: city;
-    text-align: center;
-    font-size: 3rem;
-  }
-
-  p {
-    font-size: 1.5rem;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {
 
   div {
     grid-template: repeat(3, min-content) / 1fr;
@@ -277,24 +231,12 @@ img {
 
   div,
   p {
-    font-size: 2rem;
-    font-weight: 390;
+    font-size: 2.2rem;
+    line-height: 1.5;
     text-align: center;
     padding: 2rem;
     margin: -2rem;
-
-
   }
-
-
-  input,
-  button {
-    height: 3rem;
-    border-radius: 1rem;
-    text-align: right;
-  }
-
-
 
   label,
   #light-mode-switch {
@@ -303,12 +245,68 @@ img {
     text-align: right;
   }
 
-  h1 {
-    font-size: 2.5rem;
+  img {
+    margin: -1.5rem;
+    height: 7.5rem;
   }
 
-  p {
-    font-size: 1.5rem;
+  h1 {
+    grid-area: city;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+
+
+    div {
+      grid-template: repeat(3, min-content) / 1fr;
+      grid-template-areas:
+        "input"
+        "submit"
+        "city"
+        "temp"
+        "icon";
+      padding: 2rem;
+    }
+
+
+    div,
+    p {
+      font-size: 2rem;
+      font-weight: 390;
+      text-align: center;
+      padding: 2rem;
+      margin: -2rem;
+
+
+    }
+
+
+    input,
+    button {
+      height: 3rem;
+      border-radius: 1rem;
+      text-align: right;
+    }
+
+
+
+    label,
+    #light-mode-switch {
+      height: 2rem;
+      border-radius: 3rem;
+      text-align: right;
+    }
+
+    h1 {
+      grid-area: city;
+      text-align: center;
+      font-size: 3rem;
+    }
+
+
   }
 
 }
