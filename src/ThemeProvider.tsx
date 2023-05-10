@@ -24,7 +24,8 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
           id="light-mode-switch"
           onChange={(e) => setTheme(e.target.checked ? "light" : "dark")}
           checked={theme === "light"}
-        /><div>(I/O)</div>
+        />
+        <div>(I/O)</div>
       </div>
       {children}
     </ThemeContext.Provider>

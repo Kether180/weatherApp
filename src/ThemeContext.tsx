@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const ThemeContext = React.createContext({
   theme: "light",
@@ -17,7 +17,6 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
   React.useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
-
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>

@@ -1,4 +1,3 @@
-
 :root {
   font-size: 12px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -65,7 +64,7 @@ div {
 
 input,
 button {
-  height: 4rem;
+  height: 3rem;
   border-radius: 1rem;
   text-align: right;
 }
