@@ -145,4 +145,25 @@ Icon {
     padding: 2rem;
   }
 
+  input,
+  button {
+    width: 100%;
+  }
+
+  img {
+    margin: -1.5rem;
+    height: 7.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
 }
