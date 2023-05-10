@@ -24,6 +24,8 @@ html {
   place-items: center;
   margin: 20px;
   padding: 100px;
+  justify-content: center;
+  align-items: center;
   background-color: var(--background-color);
   color: var(--text-color);
 }
@@ -34,6 +36,8 @@ body {
   color: var(--text-color);
   place-items: center;
   padding: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 input,

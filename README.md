@@ -23,7 +23,3 @@ Due to the hight amount of calls to the API server my account is temporarily dis
 
  ## Hosted at : 
 
-https://645b855e821c0c0098255557--venerable-valkyrie-98ba18.netlify.app/
-
-
-
