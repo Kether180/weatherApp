@@ -33,6 +33,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   place-items: center;
+  padding: 30px;
 }
 
 * {
@@ -43,6 +44,8 @@ body {
   text-transform: none;
   text-decoration: none;
   box-sizing: border-box;
+  margin: 10px;
+
 }
 
 div {
@@ -68,7 +71,7 @@ p {
   font-weight: 390;
   text-align: center;
   padding: 2rem;
-  margin: -2rem;
+  margin: -2.5rem;
 
 
 }
@@ -253,7 +256,7 @@ img {
   h1 {
     grid-area: city;
     text-align: center;
-    font-size: 3rem;
+    font-size: 10rem;
   }
 
 
