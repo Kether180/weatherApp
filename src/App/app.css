@@ -134,13 +134,14 @@ img {
   height: 10rem;
 }
 
-/* Responsive styles */
+/* Responsive styles  */
 
+/* mobile devices */
 
 @media only screen and (max-width: 767px) {
 
   :root {
-    font-size: 5px;
+    font-size: 8px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     --dark: #0f0707;
     --light: #e6e7e0;
@@ -212,33 +213,33 @@ img {
   }
 
 
-div,
-p {
-  font-size: 2rem;
-  font-weight: 390;
-  text-align: center;
-  padding: 2rem;
-  margin: -2rem;
+  div,
+  p {
+    font-size: 2rem;
+    font-weight: 390;
+    text-align: center;
+    padding: 2rem;
+    margin: -2rem;
 
 
-}
+  }
 
 
-input,
-button {
-  height: 3rem;
-  border-radius: 1rem;
-  text-align: right;
-}
+  input,
+  button {
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: right;
+  }
 
 
 
-label,
-#light-mode-switch {
-  height: 2rem;
-  border-radius: 3rem;
-  text-align: right;
-}
+  label,
+  #light-mode-switch {
+    height: 2rem;
+    border-radius: 3rem;
+    text-align: right;
+  }
 
 
   img {
@@ -274,33 +275,33 @@ label,
   }
 
 
-div,
-p {
-  font-size: 2rem;
-  font-weight: 390;
-  text-align: center;
-  padding: 2rem;
-  margin: -2rem;
+  div,
+  p {
+    font-size: 2rem;
+    font-weight: 390;
+    text-align: center;
+    padding: 2rem;
+    margin: -2rem;
 
 
-}
+  }
 
 
-input,
-button {
-  height: 3rem;
-  border-radius: 1rem;
-  text-align: right;
-}
+  input,
+  button {
+    height: 3rem;
+    border-radius: 1rem;
+    text-align: right;
+  }
 
 
 
-label,
-#light-mode-switch {
-  height: 2rem;
-  border-radius: 3rem;
-  text-align: right;
-}
+  label,
+  #light-mode-switch {
+    height: 2rem;
+    border-radius: 3rem;
+    text-align: right;
+  }
 
   h1 {
     font-size: 2.5rem;
