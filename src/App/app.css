@@ -46,7 +46,7 @@ body {
 }
 
 div {
- 
+
   border-radius: 0rem;
   display: grid;
   grid-template: repeat(3, min-content) / repeat(2, 25rem);
@@ -102,7 +102,7 @@ h1 {
 }
 
 h2 {
-  
+
   text-align: center;
   font-size: 19px;
 }
@@ -120,7 +120,7 @@ img {
 
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   div {
     grid-template: repeat(3, min-content) / 1fr;
     grid-template-areas:
@@ -153,4 +153,77 @@ img {
   p {
     font-size: 1.5rem;
   }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  div {
+    grid-template: repeat(3, min-content) / 1fr;
+    grid-template-areas:
+      "input"
+      "submit"
+      "city"
+      "temp"
+      "icon";
+    padding: 2rem;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  img {
+    margin: -1.5rem;
+    height: 7.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  div {
+    grid-template: repeat(3, min-content) / 1fr;
+    grid-template-areas:
+      "input"
+      "submit"
+      "city"
+      "temp"
+      "icon";
+    padding: 2rem;
+  }
+
+  input,
+  button {
+    width: 100%;
+  }
+
+  img {
+    margin: -1.5rem;
+    height: 7.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
 }
