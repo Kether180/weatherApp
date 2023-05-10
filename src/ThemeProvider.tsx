@@ -16,7 +16,7 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <button onClick={toggleTheme}>Toggle Theme</button>
+      
       <div>
         <label htmlFor="light-mode-switch"></label>
         <input
