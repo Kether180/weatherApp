@@ -19,13 +19,14 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
       
       <div>
         <label htmlFor="light-mode-switch"></label>
+     
         <input
           type="checkbox"
           id="light-mode-switch"
           onChange={(e) => setTheme(e.target.checked ? "light" : "dark")}
           checked={theme === "light"}
         />
-        <div>(I/O)</div>
+   
       </div>
       {children}
     </ThemeContext.Provider>

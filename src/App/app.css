@@ -33,10 +33,13 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   place-items: center;
-  padding: 30px;
+  padding: 20px;
 }
 
-* {
+input,
+button,
+label,
+#light-mode-switch {
   margin: 0;
   padding: 0;
   border: none;
@@ -44,70 +47,29 @@ body {
   text-transform: none;
   text-decoration: none;
   box-sizing: border-box;
-  margin: 10px;
-
-}
-
-div {
-
-  border-radius: 0rem;
-  display: grid;
-  grid-template: repeat(3, min-content) / repeat(2, 25rem);
-  grid-template-areas:
-    "input submit"
-    "city temp"
-    "icon icon";
-  gap: 1rem;
-  text-align: center;
-  padding: -9rem;
-  margin: 0rem;
-
-
-}
-
-div,
-p {
-  font-size: 2rem;
-  font-weight: 390;
-  text-align: center;
-  padding: 2rem;
-  margin: -2.5rem;
-
-
 }
 
 
 input,
 button {
   height: 3rem;
-  border-radius: 1rem;
-  text-align: right;
-}
-
-
-
-label,
-#light-mode-switch {
-  height: 2rem;
   border-radius: 3rem;
-  text-align: right;
-}
-
-input {
-  grid-area: input;
-  padding-inline: 1rem;
   text-align: center;
-  border: 2px solid var(--dark);
+  width: 30%;
+  height: 4rem;
 }
 
 button {
-  grid-area: submit;
   cursor: pointer;
   border: 2px solid var(--teal);
   background-color: var(--dark);
   color: var(--teal);
   transition: transform 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
   text-align: center;
+  height: 4rem;
+  border-radius: 3rem;
+  width: 25%;
+  padding: 5px;
 }
 
 button:hover,
@@ -116,25 +78,45 @@ button:focus {
   color: var(--dark);
   border-color: var(--light);
   transform: scale(1.05);
+}
+
+div {
+  grid-template: repeat(3, min-content) / 1fr;
+  grid-template-areas:
+    "input"
+    "submit"
+    "city"
+    "temp"
+    "icon";
+  padding: 2rem;
+}
+
+
+div,
+p {
+  font-size: 2.2rem;
+  line-height: 1.5;
   text-align: center;
+  padding: 2rem;
+  margin: -2rem;
+}
+
+label,
+#light-mode-switch {
+  height: 2rem;
+  border-radius: 3rem;
+  text-align: right;
+}
+
+img {
+  margin: -1.5rem;
+  height: 7.5rem;
 }
 
 h1 {
   grid-area: city;
   text-align: center;
-  font-size: 3rem;
-}
-
-
-p {
-  grid-area: temp;
-}
-
-img {
-  grid-area: icon;
-  justify-self: center;
-  margin: -3rem;
-  height: 10rem;
+  font-size: 5rem;
 }
 
 /* Responsive styles  , mobile */

@@ -32,6 +32,7 @@ export const App: FC = () => {
           onChange={handleInputChange}
           placeholder="Search for a city"
         />
+        
         <button onClick={handleShowWeatherClick}>Show Weather</button>
         <Weather city={city} />
       </>
