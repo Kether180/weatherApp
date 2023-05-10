@@ -36,6 +36,7 @@ export const App: FC = () => {
         <button onClick={handleShowWeatherClick}>Show Weather</button>
         <Weather city={city} />
       </>
+      
     </ThemeProvider>
   );
 };
