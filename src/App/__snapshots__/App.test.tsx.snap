@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Renders Component According To Snapshot 1`] = `
+<div>
+  <button>
+    Toggle Theme
+  </button>
+  <div>
+    <label
+      for="light-mode-switch"
+    />
+    <input
+      checked=""
+      id="light-mode-switch"
+      type="checkbox"
+    />
+    <div>
+      (I/O)
+    </div>
+  </div>
+  <input
+    placeholder="Search for a city"
+    role="search"
+    type="text"
+    value=""
+  />
+  <button>
+    Show Weather
+  </button>
+  <div />
+  <img
+    src=""
+  />
+  <div>
+     Celsius
+  </div>
+  <div>
+    Humidity: 
+    %
+  </div>
+  <div>
+    Wind Speed: 
+    km/h
+  </div>
+</div>
+`;

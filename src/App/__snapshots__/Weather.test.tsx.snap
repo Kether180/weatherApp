@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weather Renders Component According To Snapshot 1`] = `
+<div>
+  <div />
+  <img
+    src=""
+  />
+  <div>
+     Celsius
+  </div>
+  <div>
+    Humidity: 
+    %
+  </div>
+  <div>
+    Wind Speed: 
+    km/h
+  </div>
+</div>
+`;
