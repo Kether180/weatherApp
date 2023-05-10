@@ -20,3 +20,11 @@ Simple React app that allows the user to search for a location, and in turn get 
 
 Due to the hight amount of calls to the API server my account is temporarily disabled, therefore you need to wait for the API server to be available before continuing. 
  
+
+ ## Hosted at : 
+
+https://645b6a69d789160409a81876--venerable-valkyrie-98ba18.netlify.app/
+
+
+
+
