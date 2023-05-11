@@ -17,6 +17,47 @@
   --text-color: var(--light);
 }
 
+
+nav {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+
+
+
+footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
+main {
+  min-height: 80vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 html {
   height: 100%;
   width: 100%;
@@ -61,8 +102,9 @@ button {
   height: 6rem;
   border-radius: 5rem;
   text-align: center;
-  width: 60%;
+  width: 50%;
   height: 4rem;
+  padding: 2px;
 }
 
 button {
@@ -73,8 +115,8 @@ button {
   transition: transform 0.15s ease-in-out, border-color 0.15s ease-in-out, color 0.15s ease-in-out;
   text-align: center;
   height: 4rem;
-  border-radius: 1rem;
-  width: 25%;
+  border-radius: 3rem;
+  width: 35%;
   padding: 2px;
   border-width: -1px;
 }
