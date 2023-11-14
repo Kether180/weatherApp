@@ -3,13 +3,6 @@
 Simple React app that allows the user to search for a location, and in turn get the relevant weather information.
 
 
-## Getting Started
-
- - Clone the repository
- - Run **`yarn`** or **`npm i`** to install required dependencies
- - Run **`yarn dev`** or **`npm run dev`** to start server
- - Run **`yarn test`** or **`npm run test`** to run tests
-
 ## Features
 
  - Implemented a theme switcher i.e. **Dark / Light Mode**
@@ -23,6 +16,5 @@ Due to the hight amount of calls to the API server my account is temporarily dis
 
  ## Hosted at : 
 
-https://645c1c0ed2d1ff049ec644c3--hilarious-bunny-784c06.netlify.app/
-
+https://weather-app180.netlify.app/
 
